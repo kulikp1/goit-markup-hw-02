@@ -181,25 +181,7 @@ footer {
   letter-spacing: 0.32px;
 }
 
-.nav-studio:hover,
-:focus {
-  color: var(--OCEAN, #404bbf);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.32px;
-}
-
-.nav-portfolio:hover,
-:focus {
-  color: var(--OCEAN, #404bbf);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.32px;
-}
-
-.nav-contacts:hover,
+.nav-items-item:hover,
 :focus {
   color: var(--OCEAN, #404bbf);
   font-size: 16px;
