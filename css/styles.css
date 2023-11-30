@@ -78,11 +78,11 @@ address {
   cursor: pointer;
 }
 
-.sec1 {
+.sec {
   background: #fff;
 }
 
-.sec1-title {
+.sec-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -90,7 +90,7 @@ address {
   letter-spacing: 0.4px;
 }
 
-.sec1-desc {
+.sec-desc {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -108,7 +108,7 @@ address {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -138,7 +138,7 @@ address {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
