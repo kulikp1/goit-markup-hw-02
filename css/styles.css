@@ -163,11 +163,20 @@ footer {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: 'Raleway';
+  color: var(--CLOUD, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo-color {
+  color: var(--IRIS, #f4f4fd);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -189,16 +198,7 @@ footer {
   letter-spacing: 0.32px;
 }
 
-.address-mail:hover,
-:focus {
-  color: var(--OCEAN, #404bbf);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.32px;
-}
-
-.address-num:hover,
+.address-item-item:hover,
 :focus {
   color: var(--OCEAN, #404bbf);
   font-size: 16px;
